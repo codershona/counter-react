@@ -10,6 +10,28 @@
 
 // Reducer 
    const rootReducer = (state = initialState, action) => {
+   	if (action.type === 'INC_COUNTER') {
+          // state.counter++;
+
+   		//return state;
+   		return {
+   			...state,
+   			counter: state.counter + 1 
+
+   		};
+   	}
+
+
+   		if (action.type === 'ADD_COUNTER') {
+
+   		return {
+   			...state,
+   			counter: state.counter + action.value 
+
+   		};
+   	}
+
+
    	return state;
 
    };
