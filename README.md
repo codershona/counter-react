@@ -12,7 +12,10 @@
       - Creating file name : redux-basics.js ;
       - run this : node redux-basics.js  ;
       - Run again: node redux-basics.js (Result: { counter: 0 }) ;
-      - 
+      
+      * Connecting Store to React : 
+        - npm install --save react-redux ;
+        - 
 
 
 
