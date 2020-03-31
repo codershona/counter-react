@@ -47,7 +47,7 @@ const reducer = ( state = initialState, action ) => {
 		return {
 			...state,
 
- results: state.results.concat({id: new Date(), value: state.counter})
+ results: state.results.concat({id: new Date(), value: action.result})
 
 			// results: state.results.push()
 		}
