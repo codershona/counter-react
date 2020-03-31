@@ -16,8 +16,12 @@
       * Connecting Store to React : 
         - npm install --save react-redux ;
       
-      *  
+  * TYPES of STATE ------- EXAMPLE ------------ USE REDUX?
+  1) Local UI State ---- Show/Hide BackDrop --- Mostly handled within components.
 
+  2) Persistent State ---- All users, all posts,... --- Stored on Server, releveant slice managed by Redux .
+
+  3) Client State ---- Is Authenticated? Filters set by User, ... --- Managed via Redux .
 
 
 ```
