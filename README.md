@@ -15,7 +15,8 @@
       
       * Connecting Store to React : 
         - npm install --save react-redux ;
-        - 
+      
+      *  
 
 
 
