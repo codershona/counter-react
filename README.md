@@ -27,6 +27,7 @@
     * REDUX ADVANCED :
       - Adding Middleware;
       - Install redux devtools for working on firefox/chrome browser ;
+      - Handling Asynchoronous Code : npm install --save redux-thunk ;
       - 
 
 
