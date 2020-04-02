@@ -27,7 +27,7 @@ export const storeResult = ( res ) => {
 
 };
 
-export const deleteResult = (resElId) => {
+export const deleteResult = ( resElId ) => {
 	return {
 		type: actionTypes.DELETE_RESULT,
 		resultElId: resElId
