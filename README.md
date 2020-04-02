@@ -24,4 +24,11 @@
   3) Client State ---- Is Authenticated? Filters set by User, ... --- Managed via Redux .
 
 
+    * REDUX ADVANCED :
+      - Adding Middleware;
+      - 
+
+
 ```
+
+
