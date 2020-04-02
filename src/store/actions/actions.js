@@ -11,3 +11,37 @@ export const increment = () => {
 		type: INCREMENT
 	};
 };
+
+
+export const decrement = () => {
+	return {
+		type: DECREMENT
+	};
+};
+
+
+export const add = () => {
+	return {
+		type: ADD
+	};
+};
+
+
+export const substract = () => {
+	return {
+		type: SUBSTRACT
+	};
+};
+
+
+export const store_result = () => {
+	return {
+		type: STORE_RESULT
+	};
+};
+
+export const delete_result = () => {
+	return {
+		type: DELETE_RESULT
+	};
+};
