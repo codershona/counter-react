@@ -28,7 +28,12 @@
       - Adding Middleware;
       - Install redux devtools for working on firefox/chrome browser ;
       - Handling Asynchoronous Code : npm install --save redux-thunk ;
-      - 
+      - Where to put the Logic ?
+       Ans : 
+
+       1) Action Creators : [ Can run Async Code , Should not prepare the State Update too Much ]
+       2) Reducer: [ Pure, Sync Code only! , Core Redux Concept: Reducers update the State ]
+       
 
 
 ```

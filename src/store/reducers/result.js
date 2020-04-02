@@ -13,16 +13,12 @@ const reducer = ( state = initialState, action ) => {
   
 		case actionTypes.STORE_RESULT:
 		
-		// setTimeoout(() => {
-		// 	return {
-
-		// 	}
-
-		// }, 2000);
+		// Change data 
 		return {
 			...state,
 
- results: state.results.concat({id: new Date(), value: action.result})
+ // results: state.results.concat({id: new Date(), value: action.result * 2})
+ results: state.results.concat({id: new Date(), value: action.result * 2})
 
 			
 		}
