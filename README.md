@@ -1,7 +1,7 @@
 #### Project : Counter App (React/Redux)
 
 
-### Builded By Falguni Islam (Self-taught Software Developer)
+
 
 
 * NOTES :
